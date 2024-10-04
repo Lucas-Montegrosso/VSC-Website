@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Guardia</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Image/Icon.png">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container__h1">
+            <h1 class="header__h1__text">La Guardia de VSC</h1>
+        </div>
+
+        <div class="header__container__navbar">
+            <nav class="header__navbar">
+                <a class="header__container__navbar__link" href="#">Home</a>
+                <a class="header__container__navbar__link" href="#">Video</a>
+                <a class="header__container__navbar__link" href="#">Info</a>
+                <a class="header__container__navbar__link" href="#">Contac</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <aside class="main__container__img">
+            <img class="main__img" src="./Image/VitoriaGuimaraes.png" alt="">
+        </aside>
+
+        <div class="main__container__video">
+            <video class="main__video" src="./Image/Publicación de Facebook 940x788 px (1).mp4" autoplay muted></video>
+        </div>
+        
+        <aside class="main__container__img">
+            <img class="main__img" src="./Image/VitoriaGuimaraes.png">
+        </aside>
+     
+    </main>
+
+
+
+
+    <article class="article">
+
+        <div class="article__container__h2">
+            <h2 class="article__h2__text">News</h2>
+        </div>
+        
+        <div class="article__container__cards">
+            <div class="card" style="width: 18rem;">
+                <video src="./Image/Publicación de Facebook 940x788 px (1).mp4" controls></video>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <video src="./Image/Publicación de Facebook 940x788 px.mp4" controls></video>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <video src="./Image/WhatsApp Video 2024-08-12 at 10.18.25.mp4" controls></video>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>            
+        </div>
+        
+    </article>
+
+
+ 
+        <section class="contact" id="contact">
+
+            <h2 class="contact__text">Contact</h2>
+        
+            <form class="contact__form" action="https://formsubmit.co/lucas.montegrosso@gmail.com" method="POST">
+                <div class="contact__input">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter your name" name="name" id="name" required>
+                </div>
+                <div class="contact__input">
+                    <label for="email">Email</label>
+                    <input placeholder="Enter your email address" type="email" required id="email">
+                </div>
+                <div class="contact__input">
+                    <label for="coments">Comment</label>
+                    <textarea class="contact__textarea" placeholder="Enter your comment" required name="coments" id="coment"></textarea>
+                </div>
+                <button class="contact__btn">Send</button>
+    
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+    
+                <input type="hidden" name="_captcha" value="false">
+    
+            </form>
+
+        </section>
+
+
+        <footer class="footer">
+            <div class="footer__container__h3">
+                <h3 class="footer__h3__text">Social Network</h3>
+            </div>
+
+            <div class="footer__container__link">
+                <a class="footer__link__text" href="">Facebook</a>
+                <a class="footer__link__text" href="">Instagram</a>
+                <a class="footer__link__text" href="">WhatsApp</a>
+            </div>
+
+        </footer>
+
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
